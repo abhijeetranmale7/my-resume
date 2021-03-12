@@ -9,13 +9,13 @@ import Portfolio from "./views/Portfolio"
 
 const Routes = () => {
     return (
-        <BrowserRouter basename="/React">
+        <BrowserRouter basename="/my-resume">
             <Switch>
-                <Route exact path="/" component={Homepage} />
-                <Route exact path="/about" component={About} />
-                <Route exact path="/skills" component={Skills} />
-                <Route exact path="/resume" component={Resume} />
-                <Route exact path="/portfolio" component={Portfolio} />
+                <Route path="/" component={Homepage} />
+                <Route path="/about" component={About} />
+                <Route path="/skills" component={Skills} />
+                <Route path="/resume" component={Resume} />
+                <Route path="/portfolio" component={Portfolio} />
             </Switch>
         </BrowserRouter>
     )
