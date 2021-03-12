@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from './components/Header'
+// import Header from './components/Header'
 import Footer from './components/Footer'
 
 const Layout = ({ children }) => {
     return (
         <div>
             <i className="bi bi-list mobile-nav-toggle d-xl-none"></i>
-            <Header />
+            {/* <Header /> */}
             <div>
                 {
                     children
