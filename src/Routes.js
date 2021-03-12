@@ -9,7 +9,7 @@ import Portfolio from "./views/Portfolio"
 
 const Routes = () => {
     return (
-        <BrowserRouter basename="/">
+        <BrowserRouter basename="/React">
             <Switch>
                 <Route exact path="/" component={Homepage} />
                 <Route exact path="/about" component={About} />
