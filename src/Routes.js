@@ -12,10 +12,10 @@ const Routes = () => {
         <BrowserRouter basename="/my-resume">
             <Switch>
                 <Route path="/" component={Homepage} />
-                <Route path="/about" component={About} />
-                <Route path="/skills" component={Skills} />
-                <Route path="/resume" component={Resume} />
-                <Route path="/portfolio" component={Portfolio} />
+                <Route exact path="/about" component={About} />
+                <Route exact path="/skills" component={Skills} />
+                <Route exact path="/resume" component={Resume} />
+                <Route exact path="/portfolio" component={Portfolio} />
             </Switch>
         </BrowserRouter>
     )
