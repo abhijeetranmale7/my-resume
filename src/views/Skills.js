@@ -20,7 +20,7 @@ const Skills = () => {
                                 {
                                     webSkills.map((item, i) => {
                                         return (
-                                            <div className="progress" key={i}>
+                                            <div className="progress" key={'a' + i}>
                                                 <span className="skill">{item.name} <i className="val">{item.percent}%</i></span>
                                                 <div className="progress-bar-wrap">
                                                     <div className="progress-bar" style={{ width: item.percent + "%" }} role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
@@ -35,7 +35,7 @@ const Skills = () => {
                                 {
                                     webSkillsTwo.map((item, i) => {
                                         return (
-                                            <div className="progress" key={i}>
+                                            <div className="progress" key={'b' + i}>
                                                 <span className="skill">{item.name} <i className="val">{item.percent}%</i></span>
                                                 <div className="progress-bar-wrap">
                                                     <div className="progress-bar" style={{ width: item.percent + "%" }} role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
@@ -53,7 +53,7 @@ const Skills = () => {
                                 {
                                     skillSet.map((item, i) => {
                                         return (
-                                            <div className="progress" key={i}>
+                                            <div className="progress" key={'c' + i}>
                                                 <span className="skill">{item.name} <i className="val">{item.percent}%</i></span>
                                                 <div className="progress-bar-wrap">
                                                     <div className="progress-bar" style={{ width: item.percent + "%" }} role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
@@ -68,7 +68,7 @@ const Skills = () => {
                                 {
                                     skillSetTwo.map((item, i) => {
                                         return (
-                                            <div className="progress" key={i}>
+                                            <div className="progress" key={'d' + i}>
                                                 <span className="skill">{item.name} <i className="val">{item.percent}%</i></span>
                                                 <div className="progress-bar-wrap">
                                                     <div className="progress-bar" style={{ width: item.percent + "%" }} role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
@@ -86,7 +86,7 @@ const Skills = () => {
                                 {
                                     database.map((item, i) => {
                                         return (
-                                            <div className="progress" key={i}>
+                                            <div className="progress" key={'e' + i}>
                                                 <span className="skill">{item.name} <i className="val">{item.percent}%</i></span>
                                                 <div className="progress-bar-wrap">
                                                     <div className="progress-bar" style={{ width: item.percent + "%" }} role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
@@ -101,7 +101,7 @@ const Skills = () => {
                                 {
                                     databaseTwo.map((item, i) => {
                                         return (
-                                            <div className="progress" key={i}>
+                                            <div className="progress" key={'f' + i}>
                                                 <span className="skill">{item.name} <i className="val">{item.percent}%</i></span>
                                                 <div className="progress-bar-wrap">
                                                     <div className="progress-bar" style={{ width: item.percent + "%" }} role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
