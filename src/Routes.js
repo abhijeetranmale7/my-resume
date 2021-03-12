@@ -11,7 +11,7 @@ const Routes = () => {
     return (
         <BrowserRouter basename="/my-resume">
             <Switch>
-                <Route path="/" component={Homepage} />
+                <Route exact path="/" component={Homepage} />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/skills" component={Skills} />
                 <Route exact path="/resume" component={Resume} />
