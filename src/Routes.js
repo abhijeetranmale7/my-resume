@@ -1,6 +1,5 @@
 import React from "react"
 import { HashRouter, Switch, Route } from "react-router-dom"
-
 import Homepage from "./views/Homepage"
 import About from "./views/About"
 import Skills from "./views/Skills"
